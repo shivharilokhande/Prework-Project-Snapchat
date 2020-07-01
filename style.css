@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: 0 15%;
+    font-weight: 800;
+    font-size: 12px;
+    font-style: normal;
+
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #f03136;
+}
+
+#home {
+    background: #FFFC00;
+    color: black;
+    height: 800px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#home h4 {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+.bitmoji {
+    width: 70%;
+    height: 100%;
+    padding: 0 2.7em;
+}
+
+#home h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 1.5em;
+    height: 15%;
+    width: 70%;
+}
+
+#home p {
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Graphik', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.button {
+    margin: 12% 43%;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: black;
+    width: 10em;
+    height: 1.2em;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    color: #f03136;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+    font-weight: 150;
+    font-size: 15px;
+    list-style: none;
+
+}
+
+.footer-content li {
+    list-style: none;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.language {
+    margin-left: 6%;
+    padding: 20px;
+}
+
+#language {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background: white;
+    width: 13%;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    height: 34px;
+    cursor: pointer;
+
+
+}
+
+
+#footer-last {
+    background: black;
+    color: white;
+}
+
+#footer-last ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin-left: 85px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#footer-last li {
+
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 10px;
+    justify-content: space-between;
+
+}
